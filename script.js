@@ -16,7 +16,9 @@ function createTodoItem() {
 
         // todoItem.innerText = inputVal;
 
-        todoItem.innerHTML = `<span> ${inputVal}</span> <span class = "int-box-hide"> <input type="text"  placeholder = "Edit" > <i onclick = "editTodo(event)" class="fa-solid fa-pen-to-square"></i> </span> <button onclick = "editToggle(event)" >Edit</button> <i onclick = "Delete_Todo(event)" class="fa-solid fa-trash"></i>`;
+        todoItem.innerHTML = `<span> ${inputVal}</span> <span class = "int-box-hide"> <input type="text"  placeholder = "Edit" > <i onclick = "editTodo(event)" class="fa-solid fa-pen-to-square"></i> </span>
+         <button class = "edit-button" onclick = "editToggle(event)" >Edit</button> 
+         <i onclick = "Delete_Todo(event)" class="fa-solid fa-trash"></i>`;
 
         //adding class list to the element 
 
